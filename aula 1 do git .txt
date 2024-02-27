@@ -1,0 +1,20 @@
+*Comandos Inicias da aula 1*
+git init (Iniciar o controle de versão)
+
+--comando para atualizar o nome do usuario
+git config --global user.name "Cauã Gomes" 
+
+--comando para atualizar o email do usuario
+git config --global user.email "Cauag.40@gmail.com"
+
+git add . (para inserir um arquivo na proxima versão)
+git commit -m "xxx" (Para gerar uma nova versão)
+git status (Verificar alterações no programa)
+git log (lista todos os commits)
+git reset --hard <id do commits> (volta o projeto para uma versão)
+
+comandos aula 2* 
+git clone endereco do repositorio
+git remote (o proprio github gera esse comando quando criamos o repositorio)
+git push -u origin main (subir para o remoto)
+git pull (verifica se a versao local esta igual a versao do remoto)
